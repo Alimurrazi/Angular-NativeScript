@@ -10,9 +10,9 @@ So you can still use template expressions, bindings, templates as well as all th
 The ActionBar is the NativeScript common abstraction over the Android ActionBar and iOS NavigationBar.
 http://docs.nativescript.org/ui/action-bar
 -->
-<ActionBar title="My App" class="action-bar">
+<ActionBar title="My Application" android.icon="res://icon" class="action-bar">
+    <!-- <NavigationButton android.systemIcon="ic_menu_back" text="Back to ActionBar"></NavigationButton> -->
 </ActionBar>
-
 <!--
 The StackLayout stacks UI components on the screen — either vertically or horizontally.
 In this case, the StackLayout does vertical stacking; you can change the stacking to
@@ -23,11 +23,26 @@ These components make use of several CSS class names that are part of the Native
 core theme, such as p-20, btn, h2, and list-group. You can view a full list of the
 class names available for styling your app at https://docs.nativescript.org/ui/theme.
 -->
-<StackLayout class="page">
-    <ListView [items]="items" class="list-group">
+<!-- <StackLayout class="input-field">
+        <TextField hint="Enter text" autocorrect="false" (textChange)="onTextChange($event)"
+            (returnPress)="onReturn($event)" class="input input-border"></TextField>
+        <Label class="h3 text-center" [text]="'The first input is: ' + firstTx" textWrap="true" marginBottom="25"></Label>
+ </StackLayout> -->
+
+<StackLayout  backgroundColor="lightgray">
+        <Button [nsRouterLink]="['/addItem']" class="btn btn-primary btn-active" id="button" text="Tap me!"></Button>
+        
+         <!-- <StackLayout class="input-field"> -->
+            <!-- <TextField #secondTx hint="Enter some text and click the button" autocorrect="false" returnKeyType="done"
+                (returnPress)="submit(secondTx.text)" class="input input-border"></TextField> -->
+        <!-- </StackLayout> -->
+    <ScrollView>
+    <ListView [items]="items" class="list-group" height="500">
         <ng-template let-item="item">
-            <Label [nsRouterLink]="['/item', item.id]" [text]="item.name"
-                class="list-group-item"></Label>
+            <Label [nsRouterLink]="['/item', item.id]" [text]="item.name" class="list-group-item"></Label>
         </ng-template>
     </ListView>
+    </ScrollView>
+
+
 </StackLayout>
