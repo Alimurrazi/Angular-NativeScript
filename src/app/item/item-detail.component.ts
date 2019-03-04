@@ -3,6 +3,7 @@ import { ActivatedRoute } from "@angular/router";
 
 import { Item } from "./item";
 import { ItemService } from "./item.service";
+import { Image } from "tns-core-modules/ui/image";
 
 @Component({
     selector: "ns-details",

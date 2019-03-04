@@ -1,4 +1,8 @@
 
 <StackLayout>
-        <Button text="add-new works!" class="btn btn-primary"></Button>
+        <StackLayout class="input-field">
+                <TextField required hint="Enter Name" autocorrect="false" class="input input-border" [(ngModel)]="name"></TextField>
+                <TextField required hint="Enter Role" autocorrect="false" class="input input-border" [(ngModel)]="role"></TextField>
+            </StackLayout>
+        <Button text="add-new works!" class="btn btn-primary" (tap)="submit()"></Button>
 </StackLayout>

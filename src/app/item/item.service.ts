@@ -33,7 +33,6 @@ export class ItemService {
 
     getItems(): Array<Item> {
         let localStorage = require("nativescript-localstorage");
-        localStorage.clear();
         var allItem = JSON.parse(localStorage.getItem('players'));
         if(allItem==null)
         {
@@ -56,4 +55,5 @@ export class ItemService {
 
         return allItem.filter((item) => item.id === id)[0];
     }
+
 }
