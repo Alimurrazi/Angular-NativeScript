@@ -53,4 +53,9 @@ export class ItemsComponent implements OnInit {
         alert("add new");
     }
 
+    public selectedIndexChanged()
+    {
+        console.log("stop..........");
+    }
+
 }

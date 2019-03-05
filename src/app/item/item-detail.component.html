@@ -1,7 +1,37 @@
 <ActionBar title="Details" class="action-bar"></ActionBar>
-<FlexboxLayout flexDirection="column" class="page">
-  <!-- <Label class="h2" [text]="item.id + '. '"></Label> -->
+
+<!-- <AbsoluteLayout width="210" height="210" backgroundColor="lightgray">
+  <Label text="10, 10" left="10" top="10" width="90" height="90" backgroundColor="red"></Label>
+  <Label text="110, 10" left="110" top="10" width="90" height="90" backgroundColor="green"></Label>
+  <Label text="110, 110" left="110" top="110" width="90" height="90" backgroundColor="blue"></Label>
+  <Label text="10, 110" left="10" top="110" width="90" height="90" backgroundColor="yellow"></Label>
+</AbsoluteLayout> -->
+
+<!-- <DockLayout width="210" height="210" backgroundColor="lightgray" stretchLastChild="true">
+  <Label text="left1" dock="left" backgroundColor="red"></Label>
+   <Label text="left2" dock="left" backgroundColor="green"></Label>
+  <Label text="left3" dock="left" backgroundColor="blue"></Label>
+  <Label text="last child"  backgroundColor="yellow"></Label>
+</DockLayout> -->
+
+<!-- <GridLayout columns="50, auto, *" rows="50, auto, *" width="210" height="210" backgroundColor="lightgray">
+  <Label text="Label 1" row="0" col="0" backgroundColor="red"></Label>
+  <Label text="Label 2" row="0" col="1" colSpan="2" backgroundColor="green"></Label>
+  <Label text="Label 3" row="1" col="0" rowSpan="2" backgroundColor="blue"></Label>
+  <Label text="Label 4" row="1" col="1" backgroundColor="yellow"></Label>
+  <Label text="Label 5" row="1" col="2" backgroundColor="orange"></Label>
+  <Label text="Label 6" row="2" col="1" backgroundColor="pink"></Label>
+  <Label text="Label 7" row="2" col="2" backgroundColor="purple"></Label>
+</GridLayout> -->
+<ScrollView>
+ <FlexboxLayout flexDirection="column" class="page">
   <Image src="https://loremflickr.com/320/240/people" loadMode="async"></Image>
-  <Label class="h2" [text]="item.name" color="#191970" TextAlignment="center"></Label>
-  <Label class="h4" [text]="item.role"></Label>
+   
+  <WrapLayout orientation="horizontal" backgroundColor="lightgray">
+    <Label class="h2" [text]="item.name +', '" color="#191970" marginLeft="3"></Label>
+    <Label class="h3" [text]="item.role" marginTop="8"></Label>
+  </WrapLayout>
+
+  <Label [text]="randomText" textWrap="true" margin="3" fontSize="15" color="rgb(0, 39, 52)"></Label>
 </FlexboxLayout>
+</ScrollView>

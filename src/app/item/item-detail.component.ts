@@ -12,6 +12,7 @@ import { Image } from "tns-core-modules/ui/image";
 })
 export class ItemDetailComponent implements OnInit {
     item: Item;
+    randomText: any;
 
     constructor(
         private itemService: ItemService,
@@ -21,5 +22,8 @@ export class ItemDetailComponent implements OnInit {
     ngOnInit(): void {
         const id = this.route.snapshot.params.id;
         this.item = this.itemService.getItem(id);
+        var faker = require('faker');
+        this.randomText = faker.lorem.paragraphs();
+        console.log(this.randomText);
     }
 }
