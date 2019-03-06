@@ -29,23 +29,19 @@ class names available for styling your app at https://docs.nativescript.org/ui/t
         <Label class="h3 text-center" [text]="'The first input is: ' + firstTx" textWrap="true" marginBottom="25"></Label>
  </StackLayout> -->
 
-<StackLayout  backgroundColor="lightgray">
+ <StackLayout  backgroundColor="white">
         <Button [nsRouterLink]="['/addItem']" class="btn btn-primary btn-active" id="button" text="Add new player!"></Button>
-        
-         <!-- <StackLayout class="input-field"> -->
-            <!-- <TextField #secondTx hint="Enter some text and click the button" autocorrect="false" returnKeyType="done"
-                (returnPress)="submit(secondTx.text)" class="input input-border"></TextField> -->
-        <!-- </StackLayout> -->
     <ScrollView>
         
      <ListView [items]="items" class="list-group" height="500">
         <ng-template let-item="item">
-            <Label [nsRouterLink]="['/item', item.id]" [text]="item.name" class="list-group-item"></Label>
-             <Span text="&#xe903;" fontAttributes="Bold"></Span>
+            <StackLayout  backgroundColor="lightgray" orientation="horizontal" >
+                <Label [nsRouterLink]="['/item', item.id]" [text]="item.name" class="list-group-item" horizontalAlignment="left"></Label>
+                <Label class="fas" style="font-size: 20em; color: blue" text="&#xf1f8;" paddingTop="10" textAlignment="right" (tap)="showDialog(item.id)"></Label>
+              </StackLayout>
         </ng-template>
     </ListView>
-
     </ScrollView>
 
-
 </StackLayout>
+

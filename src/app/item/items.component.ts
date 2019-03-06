@@ -5,6 +5,10 @@ import { ItemService } from "./item.service";
 import { EventData } from "tns-core-modules/data/observable";
 import { Button } from "tns-core-modules/ui/button";
 import { TextField } from "tns-core-modules/ui/text-field";
+import { confirm } from "tns-core-modules/ui/dialogs";
+import { Router } from '@angular/router';
+let localStorage = require("nativescript-localstorage");
+
 @Component({
     selector: "ns-items",
     moduleId: module.id,
@@ -17,7 +21,7 @@ export class ItemsComponent implements OnInit {
     // inject an instance of the ItemService service into this class.
     // Angular knows about this service because it is included in your app’s main NgModule,
     // defined in app.module.ts.
-    constructor(private itemService: ItemService) { }
+    constructor(private itemService: ItemService, private router: Router) { }
 
     ngOnInit(): void {
         this.items = this.itemService.getItems();
@@ -39,23 +43,35 @@ export class ItemsComponent implements OnInit {
         this.firstTx = textField.text;
     }
 
-    public showAlert(result) {
-        alert("Text: " + result);
+    public showDialog(playerID) {
+     
+        let options = {
+            message: "Are you sure you want to delete the Player?",
+            okButtonText: "Yes",
+            cancelButtonText: "No",
+            neutralButtonText: "Cancel"
+        };
+        
+        confirm(options).then((result: boolean) => {
+            console.log(result);
+            if(result == true)
+            {
+                this.delete(playerID);
+            }
+        });
+    }
+
+    public delete(playerID)
+    {
+        var players=JSON.parse(localStorage.getItem("players"));
+        var index = players.findIndex(value => value.id === playerID);
+        players.splice(index,1);
+        localStorage.setItem("players",JSON.stringify(players));
+        this.ngOnInit();
     }
 
     public submit(result) {
         alert("Text: " + result);
-    }
-
-    public addNew()
-    {
-        console.log("addnew");
-        alert("add new");
-    }
-
-    public selectedIndexChanged()
-    {
-        console.log("stop..........");
     }
 
 }
