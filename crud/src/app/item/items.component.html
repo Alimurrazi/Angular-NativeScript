@@ -35,7 +35,7 @@ class names available for styling your app at https://docs.nativescript.org/ui/t
         
      <ListView [items]="items" class="list-group" height="500">
         <ng-template let-item="item">
-            <StackLayout  backgroundColor="lightgray" orientation="horizontal" >
+            <StackLayout  backgroundColor="lightgray" orientation="horizontal">
                 <Label [nsRouterLink]="['/item', item.id]" [text]="item.name" class="list-group-item" horizontalAlignment="left"></Label>
                 <Label class="fas" style="font-size: 20em; color: blue" text="&#xf1f8;" paddingTop="10" textAlignment="right" (tap)="showDialog(item.id)"></Label>
               </StackLayout>
