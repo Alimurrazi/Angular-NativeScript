@@ -1,3 +1,41 @@
 .action-bar-title{
-    padding-left: 35px;
+    padding-left: 40%;
+}
+
+.food-name{
+    font-size: 20px;
+}
+
+.topping
+{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.btn
+{
+    border-radius: 50;
+}
+
+.page-item
+{
+    margin: 2%;
+    padding: 2%;
+}
+
+.footer
+{
+   background-color: lightgray;
+   padding-left: 5%;
+   padding-right: 5%;
+}
+
+.action-bar
+{
+    background-color: lightgray;
+}
+
+.items
+{
+
 }

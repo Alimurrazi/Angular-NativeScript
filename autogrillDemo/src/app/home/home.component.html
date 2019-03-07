@@ -1,14 +1,34 @@
 <ActionBar class="action-bar">
-
     <GridLayout rows="auto" columns="*">
-            <!-- <Label row="0" horizontalAlignment="left" text="Center me" class="center"></Label>
-            <Label row="0" horizontalAlignment="right" text="Pull me to the right" class="right"></Label> -->
             <Label row="0" class="fas" style="font-size: 20em;" text="&#xf07a;" horizontalAlignment="left"></Label>
-            <Label class="action-bar-title" text="Your Order"></Label>
+            <Label coloumn="1" class="action-bar-title" text="Your Order"></Label>
     </GridLayout>
-
 </ActionBar>
 
-<GridLayout class="page">
-    <!-- Add your page content here -->
+<GridLayout rows="*,45">
+
+        <ScrollView row="0" class="items" >
+        <ListView [items]="items" class="list-group" height="500">
+                <ng-template let-item="item">
+                        <GridLayout class="page-item" columns="50, 50, 50, *, 100" rows="auto, auto, auto, auto">
+                                <Label row="0" col="0" colSpan="5" rowSpan="2" text="Bites and Nibbles Items, Prawn Tempura with wasabi mayo" textWrap="true" class="food-name" marginTop="10" marginLeft="10"></Label>
+                                <Label row="2" col="0" colSpan="2" text="No Toppings" textWrap="true" class="topping" marginLeft="10"></Label>
+                                 <Button row="3" col="0" class="btn btn-primary btn-active" class="btn-plus" text="+" marginLeft="10"></Button>
+                                 <Label text="Label 2" row="3" col="1" text="1" textAlignment="center" verticalAlignment="middle" class="item-number"></Label>
+                                 <Button row="3" col="2" class="btn btn-primary btn-active" class="btn-minus" text="-" marginLeft="10"></Button>
+                                 <Label row="3" col="4" text="440 TK" textAlignment="right" verticalAlignment="middle" marginRight="10"></Label>
+                        </GridLayout>
+                </ng-template>
+            </ListView>
+        </ScrollView>
+
+        <StackLayout orientation="horizontal" row="1" class="footer">
+
+                <GridLayout rows="*" columns="*">
+                        <Label style="font-size: 20em;" text="Total" textAlignment="left" verticalAlignment="middle"></Label>
+                        <Label coloumn="0" text="0.00 TK" verticalAlignment="middle" horizontalAlignment="right" ></Label>
+                </GridLayout>
+
+        </StackLayout>
+
 </GridLayout>
