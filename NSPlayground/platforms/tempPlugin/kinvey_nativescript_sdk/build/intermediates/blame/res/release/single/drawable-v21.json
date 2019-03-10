@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\angular-native\\NSPlayground\\platforms\\tempPlugin\\kinvey_nativescript_sdk\\build\\intermediates\\res\\merged\\release\\drawable-v21\\abc_list_divider_material.xml",
+        "source": "C:\\Users\\alimur.razi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fbd698bc232de62fa9037fdd2a1ed317\\res\\drawable-v21\\abc_list_divider_material.xml"
+    },
+    {
+        "merged": "E:\\angular-native\\NSPlayground\\platforms\\tempPlugin\\kinvey_nativescript_sdk\\build\\intermediates\\res\\merged\\release\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\alimur.razi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fbd698bc232de62fa9037fdd2a1ed317\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "E:\\angular-native\\NSPlayground\\platforms\\tempPlugin\\kinvey_nativescript_sdk\\build\\intermediates\\res\\merged\\release\\drawable-v21\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\alimur.razi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fbd698bc232de62fa9037fdd2a1ed317\\res\\drawable-v21\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "E:\\angular-native\\NSPlayground\\platforms\\tempPlugin\\kinvey_nativescript_sdk\\build\\intermediates\\res\\merged\\release\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\alimur.razi\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\44c28ea732f7fcf1f1db40c6c2785b9e\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "E:\\angular-native\\NSPlayground\\platforms\\tempPlugin\\kinvey_nativescript_sdk\\build\\intermediates\\res\\merged\\release\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\alimur.razi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fbd698bc232de62fa9037fdd2a1ed317\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "E:\\angular-native\\NSPlayground\\platforms\\tempPlugin\\kinvey_nativescript_sdk\\build\\intermediates\\res\\merged\\release\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\alimur.razi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fbd698bc232de62fa9037fdd2a1ed317\\res\\drawable-v21\\abc_edit_text_material.xml"
+    }
+]

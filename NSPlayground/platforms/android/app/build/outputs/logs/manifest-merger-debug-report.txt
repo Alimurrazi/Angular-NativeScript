@@ -1,0 +1,420 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:2:1-43:12
+MERGED from [com.orhanobut:hawk:2.0.1] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\hawk-2.0.1.aar\fbf034af78a6048ff27172f8dd2198c3\AndroidManifest.xml:2:1-8:12
+MERGED from [net.gotev:uploadservice:3.4.2] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\uploadservice-3.4.2.aar\4fad51bd970e6b21c1678f6b2eec42bf\AndroidManifest.xml:2:1-24:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\978731360d0ba358a9578c58bae550fe\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\fbd698bc232de62fa9037fdd2a1ed317\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\2acc8ae8d8dd2233fd5d3e6978690a94\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-location:11.4.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\play-services-location-11.4.0.aar\5c3314b411afbf0407feaa1f469ece0c\AndroidManifest.xml:2:1-5:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\c61502c6d3339d67555ac4d20a29d283\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\fresco-1.10.0.aar\63eaf6e3f0645baf98529c256cbf43d7\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:animated-gif:1.10.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\animated-gif-1.10.0.aar\722ec55af4cda82bc8c34ebfcde3c047\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\c5d6ad4770e11cb75a220856e8bb13ea\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\1810e876a41c81860d7a3273ff768c6c\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.0.aar\4e5600dfc0e399a38ac293dc64f8aea5\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.0.aar\db0ab173fdf15a9f71129946bc90ee84\AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\6c71c8f7222539030bca3c293296b61f\AndroidManifest.xml:17:1-22:12
+MERGED from [:nativescript-optimized-with-inspector:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript-optimized-with-inspector.aar\1427a5205f1e58ca4a239090bf3b089c\AndroidManifest.xml:2:1-11:12
+MERGED from [:kinvey_nativescript_sdk:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\kinvey_nativescript_sdk.aar\25a1306df06ae9e29acab17a23b463a0\AndroidManifest.xml:2:1-11:12
+MERGED from [:nativescript_background_http:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_background_http.aar\67603833377594c1f4fe4cc772443a55\AndroidManifest.xml:2:1-25:12
+MERGED from [:nativescript_camera:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_camera.aar\226c371e371c04b348d8652476c7efd4\AndroidManifest.xml:2:1-23:12
+MERGED from [:processors-release:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\processors-release.aar\8ea74a61bb820d3ba1992ab27b578cb8\AndroidManifest.xml:2:1-12:12
+MERGED from [:nativescript_geolocation:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_geolocation.aar\2d007b332dc5675579361b3a2c7e2166\AndroidManifest.xml:2:1-11:12
+MERGED from [:nativescript_social_share:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_social_share.aar\05b579966ea03ac2463c8fcb6ea1db7a\AndroidManifest.xml:2:1-21:12
+MERGED from [:TNSAutoComplete-release:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\TNSAutoComplete-release.aar\02c5a6c78aa5bbe39ca1c752413981c8\AndroidManifest.xml:2:1-11:12
+MERGED from [:TNSCalendar-release:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\TNSCalendar-release.aar\ebe05ac5322697b0d1cad7f0d32cbf8f\AndroidManifest.xml:2:1-11:12
+MERGED from [:TNSChart-release:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\TNSChart-release.aar\d46dd9c9496e11bb1d39550e34dd6b18\AndroidManifest.xml:2:1-11:12
+MERGED from [:TNSDataForm-release:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\TNSDataForm-release.aar\93d384437bce9ed4ddac53191868cbd8\AndroidManifest.xml:2:1-11:12
+MERGED from [:TNSGauge-release:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\TNSGauge-release.aar\deb47790cf971e7ef06f9919b1586aad\AndroidManifest.xml:2:1-11:12
+MERGED from [:TNSListView-release:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\TNSListView-release.aar\f1501eff8392a9664169b0369a34f803\AndroidManifest.xml:2:1-11:12
+MERGED from [:TNSSideDrawer-release:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\TNSSideDrawer-release.aar\7ecc597cf34b99bef85f198f76045a75\AndroidManifest.xml:2:1-11:12
+MERGED from [:TNSCore-release:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\TNSCore-release.aar\79814c11a458f1a5c652273333206a3a\AndroidManifest.xml:2:1-11:12
+MERGED from [:widgets-release:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\widgets-release.aar\004ea9242b638f40afb5baff28988ce8\AndroidManifest.xml:2:1-14:12
+MERGED from [com.facebook.conceal:conceal:1.1.3] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\conceal-1.1.3.aar\46d850d7d196437b2915c523e27bba0c\AndroidManifest.xml:7:1-16:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\98c5752a845ac748eb8ec09930a046a1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\a1977a613fc3ab16721726993dd26ca5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\2dab5020ad132b10e0f2e58ff2715614\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\d03e2912ada94a732e7edebe78843fe3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\3dc6a4e8ac20fbf95d6f4e736a9bbe7d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\3f326ebff3adb998d5ee194e3415124a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\3d3e6ad8a23869f72ef513f0a4279132\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\dc8b9202908ea39363f64bd65e0097b5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\db1660b8e4c7fbfc1b6ce7ed0f9072fa\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\dbed30c74c53f18bff3da217bda509f8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\9b847ee4b42208ff8512fd804b820305\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\1910ec22cd69d485d693e7b0df65b455\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\394f95ee4f3fea6fe1a51554985d42ea\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\126a8a5bd6705fa998a2d98af3764949\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\d9d707eb5067b95412d2e94fb4e5f707\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\44c28ea732f7fcf1f1db40c6c2785b9e\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\3bf51a85b6e4ad0a4f84d9ca119b2b16\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\d739052ea013fabf12137465a35e3104\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\5685bdb67d658a73c3367c5b5d6c8ecd\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\a07f6a8c588fc21bda58ff5a42125d83\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\1d181b1fc337661c65853f016020ee3f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\d7812ad15d472ad98226ccf8635c59f2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\8efcd621b3164969cc3f1d5db556bce3\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\7f08a7d4c8c497bc0b9102505274f64f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\abb84989891be655dca44a95033a30d4\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\e27d80e30804f9cd34c4c8196f64520d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\eaad5c7962f24fc03aa2779a3726cb93\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\9f6de1a8c46f49376b0cd9bd1776b77c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:animated-base:1.10.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\animated-base-1.10.0.aar\f495ba4b3e13076dbb2f95ff8c2abfe0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:animated-drawable:1.10.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\animated-drawable-1.10.0.aar\ac78ff13e9ff0faab9c884ae451642a3\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:1.10.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\drawee-1.10.0.aar\c588e153afe4fbddec44a8c9c9237622\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.10.0.aar\4f997a4c312dea5a0c4072fa34348e79\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.10.0.aar\57e17e2dab4cf44377c0210510baa97b\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\fbcore-1.10.0.aar\417f0f847f8e4c753082589b9a6e4000\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.5.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\soloader-0.5.0.aar\29a77cb9b42f4ac3fd6702783c214b7f\AndroidManifest.xml:2:1-13:12
+INJECTED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:2:1-43:12
+	package
+		ADDED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:3:2-36
+		INJECTED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:5:2-27
+		INJECTED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:4:2-25
+		INJECTED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml
+supports-screens
+ADDED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:7:2-11:33
+	android:largeScreens
+		ADDED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:10:3-30
+	android:smallScreens
+		ADDED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:8:3-30
+	android:normalScreens
+		ADDED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:9:3-31
+	android:xlargeScreens
+		ADDED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:11:3-31
+uses-sdk
+ADDED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:13:2-15:34
+INJECTED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:13:2-15:34
+INJECTED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:13:2-15:34
+MERGED from [com.orhanobut:hawk:2.0.1] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\hawk-2.0.1.aar\fbf034af78a6048ff27172f8dd2198c3\AndroidManifest.xml:6:5-44
+MERGED from [com.orhanobut:hawk:2.0.1] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\hawk-2.0.1.aar\fbf034af78a6048ff27172f8dd2198c3\AndroidManifest.xml:6:5-44
+MERGED from [net.gotev:uploadservice:3.4.2] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\uploadservice-3.4.2.aar\4fad51bd970e6b21c1678f6b2eec42bf\AndroidManifest.xml:7:5-9:41
+MERGED from [net.gotev:uploadservice:3.4.2] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\uploadservice-3.4.2.aar\4fad51bd970e6b21c1678f6b2eec42bf\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\978731360d0ba358a9578c58bae550fe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\978731360d0ba358a9578c58bae550fe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\fbd698bc232de62fa9037fdd2a1ed317\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\fbd698bc232de62fa9037fdd2a1ed317\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\2acc8ae8d8dd2233fd5d3e6978690a94\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\2acc8ae8d8dd2233fd5d3e6978690a94\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:11.4.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\play-services-location-11.4.0.aar\5c3314b411afbf0407feaa1f469ece0c\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:11.4.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\play-services-location-11.4.0.aar\5c3314b411afbf0407feaa1f469ece0c\AndroidManifest.xml:3:5-43
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\c61502c6d3339d67555ac4d20a29d283\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\c61502c6d3339d67555ac4d20a29d283\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\fresco-1.10.0.aar\63eaf6e3f0645baf98529c256cbf43d7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\fresco-1.10.0.aar\63eaf6e3f0645baf98529c256cbf43d7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-gif:1.10.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\animated-gif-1.10.0.aar\722ec55af4cda82bc8c34ebfcde3c047\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-gif:1.10.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\animated-gif-1.10.0.aar\722ec55af4cda82bc8c34ebfcde3c047\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\c5d6ad4770e11cb75a220856e8bb13ea\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\c5d6ad4770e11cb75a220856e8bb13ea\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\1810e876a41c81860d7a3273ff768c6c\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\1810e876a41c81860d7a3273ff768c6c\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.0.aar\4e5600dfc0e399a38ac293dc64f8aea5\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.0.aar\4e5600dfc0e399a38ac293dc64f8aea5\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.0.aar\db0ab173fdf15a9f71129946bc90ee84\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.0.aar\db0ab173fdf15a9f71129946bc90ee84\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\6c71c8f7222539030bca3c293296b61f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\6c71c8f7222539030bca3c293296b61f\AndroidManifest.xml:20:5-44
+MERGED from [:nativescript-optimized-with-inspector:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript-optimized-with-inspector.aar\1427a5205f1e58ca4a239090bf3b089c\AndroidManifest.xml:7:5-9:41
+MERGED from [:nativescript-optimized-with-inspector:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript-optimized-with-inspector.aar\1427a5205f1e58ca4a239090bf3b089c\AndroidManifest.xml:7:5-9:41
+MERGED from [:kinvey_nativescript_sdk:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\kinvey_nativescript_sdk.aar\25a1306df06ae9e29acab17a23b463a0\AndroidManifest.xml:7:5-47
+MERGED from [:kinvey_nativescript_sdk:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\kinvey_nativescript_sdk.aar\25a1306df06ae9e29acab17a23b463a0\AndroidManifest.xml:7:5-47
+MERGED from [:nativescript_background_http:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_background_http.aar\67603833377594c1f4fe4cc772443a55\AndroidManifest.xml:7:5-47
+MERGED from [:nativescript_background_http:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_background_http.aar\67603833377594c1f4fe4cc772443a55\AndroidManifest.xml:7:5-47
+MERGED from [:nativescript_camera:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_camera.aar\226c371e371c04b348d8652476c7efd4\AndroidManifest.xml:7:5-47
+MERGED from [:nativescript_camera:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_camera.aar\226c371e371c04b348d8652476c7efd4\AndroidManifest.xml:7:5-47
+MERGED from [:processors-release:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\processors-release.aar\8ea74a61bb820d3ba1992ab27b578cb8\AndroidManifest.xml:8:5-10:41
+MERGED from [:processors-release:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\processors-release.aar\8ea74a61bb820d3ba1992ab27b578cb8\AndroidManifest.xml:8:5-10:41
+MERGED from [:nativescript_geolocation:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_geolocation.aar\2d007b332dc5675579361b3a2c7e2166\AndroidManifest.xml:7:5-47
+MERGED from [:nativescript_geolocation:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_geolocation.aar\2d007b332dc5675579361b3a2c7e2166\AndroidManifest.xml:7:5-47
+MERGED from [:nativescript_social_share:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_social_share.aar\05b579966ea03ac2463c8fcb6ea1db7a\AndroidManifest.xml:7:5-47
+MERGED from [:nativescript_social_share:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_social_share.aar\05b579966ea03ac2463c8fcb6ea1db7a\AndroidManifest.xml:7:5-47
+MERGED from [:TNSAutoComplete-release:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\TNSAutoComplete-release.aar\02c5a6c78aa5bbe39ca1c752413981c8\AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSAutoComplete-release:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\TNSAutoComplete-release.aar\02c5a6c78aa5bbe39ca1c752413981c8\AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSCalendar-release:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\TNSCalendar-release.aar\ebe05ac5322697b0d1cad7f0d32cbf8f\AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSCalendar-release:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\TNSCalendar-release.aar\ebe05ac5322697b0d1cad7f0d32cbf8f\AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSChart-release:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\TNSChart-release.aar\d46dd9c9496e11bb1d39550e34dd6b18\AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSChart-release:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\TNSChart-release.aar\d46dd9c9496e11bb1d39550e34dd6b18\AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSDataForm-release:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\TNSDataForm-release.aar\93d384437bce9ed4ddac53191868cbd8\AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSDataForm-release:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\TNSDataForm-release.aar\93d384437bce9ed4ddac53191868cbd8\AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSGauge-release:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\TNSGauge-release.aar\deb47790cf971e7ef06f9919b1586aad\AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSGauge-release:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\TNSGauge-release.aar\deb47790cf971e7ef06f9919b1586aad\AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSListView-release:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\TNSListView-release.aar\f1501eff8392a9664169b0369a34f803\AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSListView-release:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\TNSListView-release.aar\f1501eff8392a9664169b0369a34f803\AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSSideDrawer-release:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\TNSSideDrawer-release.aar\7ecc597cf34b99bef85f198f76045a75\AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSSideDrawer-release:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\TNSSideDrawer-release.aar\7ecc597cf34b99bef85f198f76045a75\AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSCore-release:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\TNSCore-release.aar\79814c11a458f1a5c652273333206a3a\AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSCore-release:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\TNSCore-release.aar\79814c11a458f1a5c652273333206a3a\AndroidManifest.xml:7:5-9:41
+MERGED from [:widgets-release:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\widgets-release.aar\004ea9242b638f40afb5baff28988ce8\AndroidManifest.xml:7:5-9:41
+MERGED from [:widgets-release:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\widgets-release.aar\004ea9242b638f40afb5baff28988ce8\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.conceal:conceal:1.1.3] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\conceal-1.1.3.aar\46d850d7d196437b2915c523e27bba0c\AndroidManifest.xml:12:5-14:41
+MERGED from [com.facebook.conceal:conceal:1.1.3] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\conceal-1.1.3.aar\46d850d7d196437b2915c523e27bba0c\AndroidManifest.xml:12:5-14:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\98c5752a845ac748eb8ec09930a046a1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\98c5752a845ac748eb8ec09930a046a1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\a1977a613fc3ab16721726993dd26ca5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\a1977a613fc3ab16721726993dd26ca5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\2dab5020ad132b10e0f2e58ff2715614\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\2dab5020ad132b10e0f2e58ff2715614\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\d03e2912ada94a732e7edebe78843fe3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\d03e2912ada94a732e7edebe78843fe3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\3dc6a4e8ac20fbf95d6f4e736a9bbe7d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\3dc6a4e8ac20fbf95d6f4e736a9bbe7d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\3f326ebff3adb998d5ee194e3415124a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\3f326ebff3adb998d5ee194e3415124a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\3d3e6ad8a23869f72ef513f0a4279132\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\3d3e6ad8a23869f72ef513f0a4279132\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\dc8b9202908ea39363f64bd65e0097b5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\dc8b9202908ea39363f64bd65e0097b5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\db1660b8e4c7fbfc1b6ce7ed0f9072fa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\db1660b8e4c7fbfc1b6ce7ed0f9072fa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\dbed30c74c53f18bff3da217bda509f8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\dbed30c74c53f18bff3da217bda509f8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\9b847ee4b42208ff8512fd804b820305\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\9b847ee4b42208ff8512fd804b820305\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\1910ec22cd69d485d693e7b0df65b455\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\1910ec22cd69d485d693e7b0df65b455\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\394f95ee4f3fea6fe1a51554985d42ea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\394f95ee4f3fea6fe1a51554985d42ea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\126a8a5bd6705fa998a2d98af3764949\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\126a8a5bd6705fa998a2d98af3764949\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\d9d707eb5067b95412d2e94fb4e5f707\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\d9d707eb5067b95412d2e94fb4e5f707\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\44c28ea732f7fcf1f1db40c6c2785b9e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\44c28ea732f7fcf1f1db40c6c2785b9e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\3bf51a85b6e4ad0a4f84d9ca119b2b16\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\3bf51a85b6e4ad0a4f84d9ca119b2b16\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\d739052ea013fabf12137465a35e3104\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\d739052ea013fabf12137465a35e3104\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\5685bdb67d658a73c3367c5b5d6c8ecd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\5685bdb67d658a73c3367c5b5d6c8ecd\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\a07f6a8c588fc21bda58ff5a42125d83\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\a07f6a8c588fc21bda58ff5a42125d83\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\1d181b1fc337661c65853f016020ee3f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\1d181b1fc337661c65853f016020ee3f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\d7812ad15d472ad98226ccf8635c59f2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\d7812ad15d472ad98226ccf8635c59f2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\8efcd621b3164969cc3f1d5db556bce3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\8efcd621b3164969cc3f1d5db556bce3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\7f08a7d4c8c497bc0b9102505274f64f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\7f08a7d4c8c497bc0b9102505274f64f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\abb84989891be655dca44a95033a30d4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\abb84989891be655dca44a95033a30d4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\e27d80e30804f9cd34c4c8196f64520d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\e27d80e30804f9cd34c4c8196f64520d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\eaad5c7962f24fc03aa2779a3726cb93\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\eaad5c7962f24fc03aa2779a3726cb93\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\9f6de1a8c46f49376b0cd9bd1776b77c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\9f6de1a8c46f49376b0cd9bd1776b77c\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:animated-base:1.10.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\animated-base-1.10.0.aar\f495ba4b3e13076dbb2f95ff8c2abfe0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-base:1.10.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\animated-base-1.10.0.aar\f495ba4b3e13076dbb2f95ff8c2abfe0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-drawable:1.10.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\animated-drawable-1.10.0.aar\ac78ff13e9ff0faab9c884ae451642a3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-drawable:1.10.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\animated-drawable-1.10.0.aar\ac78ff13e9ff0faab9c884ae451642a3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\drawee-1.10.0.aar\c588e153afe4fbddec44a8c9c9237622\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\drawee-1.10.0.aar\c588e153afe4fbddec44a8c9c9237622\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.10.0.aar\4f997a4c312dea5a0c4072fa34348e79\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.10.0.aar\4f997a4c312dea5a0c4072fa34348e79\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.10.0.aar\57e17e2dab4cf44377c0210510baa97b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.10.0.aar\57e17e2dab4cf44377c0210510baa97b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\fbcore-1.10.0.aar\417f0f847f8e4c753082589b9a6e4000\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\fbcore-1.10.0.aar\417f0f847f8e4c753082589b9a6e4000\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.5.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\soloader-0.5.0.aar\29a77cb9b42f4ac3fd6702783c214b7f\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.5.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\soloader-0.5.0.aar\29a77cb9b42f4ac3fd6702783c214b7f\AndroidManifest.xml:7:5-9:41
+INJECTED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:13:2-15:34
+INJECTED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:13:2-15:34
+	android:targetSdkVersion
+		ADDED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:15:3-32
+		INJECTED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:14:3-29
+		INJECTED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml
+		MERGED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:14:3-29
+		MERGED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:14:3-29
+		MERGED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:14:3-29
+		MERGED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:14:3-29
+		MERGED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:14:3-29
+		INJECTED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:17:2-76
+MERGED from [net.gotev:uploadservice:3.4.2] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\uploadservice-3.4.2.aar\4fad51bd970e6b21c1678f6b2eec42bf\AndroidManifest.xml:12:5-80
+MERGED from [net.gotev:uploadservice:3.4.2] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\uploadservice-3.4.2.aar\4fad51bd970e6b21c1678f6b2eec42bf\AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:17:19-74
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:18:2-77
+MERGED from [net.gotev:uploadservice:3.4.2] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\uploadservice-3.4.2.aar\4fad51bd970e6b21c1678f6b2eec42bf\AndroidManifest.xml:13:5-81
+MERGED from [net.gotev:uploadservice:3.4.2] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\uploadservice-3.4.2.aar\4fad51bd970e6b21c1678f6b2eec42bf\AndroidManifest.xml:13:5-81
+MERGED from [:nativescript_background_http:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_background_http.aar\67603833377594c1f4fe4cc772443a55\AndroidManifest.xml:11:5-81
+MERGED from [:nativescript_background_http:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_background_http.aar\67603833377594c1f4fe4cc772443a55\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:18:19-75
+uses-permission#android.permission.INTERNET
+ADDED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:19:2-63
+MERGED from [net.gotev:uploadservice:3.4.2] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\uploadservice-3.4.2.aar\4fad51bd970e6b21c1678f6b2eec42bf\AndroidManifest.xml:11:5-67
+MERGED from [net.gotev:uploadservice:3.4.2] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\uploadservice-3.4.2.aar\4fad51bd970e6b21c1678f6b2eec42bf\AndroidManifest.xml:11:5-67
+MERGED from [:nativescript_background_http:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_background_http.aar\67603833377594c1f4fe4cc772443a55\AndroidManifest.xml:10:5-67
+MERGED from [:nativescript_background_http:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_background_http.aar\67603833377594c1f4fe4cc772443a55\AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:19:19-61
+application
+ADDED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:21:2-42:16
+MERGED from [net.gotev:uploadservice:3.4.2] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\uploadservice-3.4.2.aar\4fad51bd970e6b21c1678f6b2eec42bf\AndroidManifest.xml:16:5-22:19
+MERGED from [net.gotev:uploadservice:3.4.2] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\uploadservice-3.4.2.aar\4fad51bd970e6b21c1678f6b2eec42bf\AndroidManifest.xml:16:5-22:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\978731360d0ba358a9578c58bae550fe\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\978731360d0ba358a9578c58bae550fe\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location:11.4.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\play-services-location-11.4.0.aar\5c3314b411afbf0407feaa1f469ece0c\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-location:11.4.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\play-services-location-11.4.0.aar\5c3314b411afbf0407feaa1f469ece0c\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\1810e876a41c81860d7a3273ff768c6c\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\1810e876a41c81860d7a3273ff768c6c\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.0.aar\4e5600dfc0e399a38ac293dc64f8aea5\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.0.aar\4e5600dfc0e399a38ac293dc64f8aea5\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.0.aar\db0ab173fdf15a9f71129946bc90ee84\AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.0.aar\db0ab173fdf15a9f71129946bc90ee84\AndroidManifest.xml:19:5-21:19
+MERGED from [:nativescript_background_http:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_background_http.aar\67603833377594c1f4fe4cc772443a55\AndroidManifest.xml:14:5-23:19
+MERGED from [:nativescript_background_http:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_background_http.aar\67603833377594c1f4fe4cc772443a55\AndroidManifest.xml:14:5-23:19
+MERGED from [:nativescript_camera:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_camera.aar\226c371e371c04b348d8652476c7efd4\AndroidManifest.xml:11:5-21:19
+MERGED from [:nativescript_camera:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_camera.aar\226c371e371c04b348d8652476c7efd4\AndroidManifest.xml:11:5-21:19
+MERGED from [:nativescript_social_share:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_social_share.aar\05b579966ea03ac2463c8fcb6ea1db7a\AndroidManifest.xml:9:5-19:19
+MERGED from [:nativescript_social_share:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_social_share.aar\05b579966ea03ac2463c8fcb6ea1db7a\AndroidManifest.xml:9:5-19:19
+MERGED from [:widgets-release:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\widgets-release.aar\004ea9242b638f40afb5baff28988ce8\AndroidManifest.xml:11:5-12:19
+MERGED from [:widgets-release:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\widgets-release.aar\004ea9242b638f40afb5baff28988ce8\AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\44c28ea732f7fcf1f1db40c6c2785b9e\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\44c28ea732f7fcf1f1db40c6c2785b9e\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\3bf51a85b6e4ad0a4f84d9ca119b2b16\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\3bf51a85b6e4ad0a4f84d9ca119b2b16\AndroidManifest.xml:22:5-23:19
+MERGED from [com.facebook.soloader:soloader:0.5.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\soloader-0.5.0.aar\29a77cb9b42f4ac3fd6702783c214b7f\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.5.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\soloader-0.5.0.aar\29a77cb9b42f4ac3fd6702783c214b7f\AndroidManifest.xml:11:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\44c28ea732f7fcf1f1db40c6c2785b9e\AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:25:3-35
+	android:icon
+		ADDED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:24:3-32
+	android:allowBackup
+		ADDED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:23:3-29
+	android:theme
+		ADDED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:26:3-34
+	android:name
+		ADDED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:22:3-49
+activity#com.tns.NativeScriptActivity
+ADDED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:28:3-40:14
+	android:label
+		ADDED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:30:4-49
+	android:configChanges
+		ADDED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:31:4-65
+	android:theme
+		ADDED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:32:4-44
+	android:name
+		ADDED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:29:4-47
+meta-data#SET_THEME_ON_LAUNCH
+ADDED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:34:4-87
+	android:resource
+		ADDED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:34:50-84
+	android:name
+		ADDED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:34:15-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:36:4-39:20
+action#android.intent.action.MAIN
+ADDED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:37:5-57
+	android:name
+		ADDED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:37:13-54
+category#android.intent.category.LAUNCHER
+ADDED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:38:5-65
+	android:name
+		ADDED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:38:15-62
+activity#com.tns.ErrorReportActivity
+ADDED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:41:3-57
+	android:name
+		ADDED from E:\angular-native\NSPlayground\platforms\android\app\src\main\AndroidManifest.xml:41:13-55
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [net.gotev:uploadservice:3.4.2] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\uploadservice-3.4.2.aar\4fad51bd970e6b21c1678f6b2eec42bf\AndroidManifest.xml:14:5-68
+MERGED from [:nativescript_background_http:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_background_http.aar\67603833377594c1f4fe4cc772443a55\AndroidManifest.xml:12:5-68
+MERGED from [:nativescript_background_http:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_background_http.aar\67603833377594c1f4fe4cc772443a55\AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from [net.gotev:uploadservice:3.4.2] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\uploadservice-3.4.2.aar\4fad51bd970e6b21c1678f6b2eec42bf\AndroidManifest.xml:14:22-65
+service#net.gotev.uploadservice.UploadService
+ADDED from [net.gotev:uploadservice:3.4.2] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\uploadservice-3.4.2.aar\4fad51bd970e6b21c1678f6b2eec42bf\AndroidManifest.xml:17:9-21:19
+	android:enabled
+		ADDED from [net.gotev:uploadservice:3.4.2] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\uploadservice-3.4.2.aar\4fad51bd970e6b21c1678f6b2eec42bf\AndroidManifest.xml:19:13-35
+	android:exported
+		ADDED from [net.gotev:uploadservice:3.4.2] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\uploadservice-3.4.2.aar\4fad51bd970e6b21c1678f6b2eec42bf\AndroidManifest.xml:20:13-37
+	android:name
+		ADDED from [net.gotev:uploadservice:3.4.2] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\uploadservice-3.4.2.aar\4fad51bd970e6b21c1678f6b2eec42bf\AndroidManifest.xml:18:13-65
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\1810e876a41c81860d7a3273ff768c6c\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\1810e876a41c81860d7a3273ff768c6c\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\1810e876a41c81860d7a3273ff768c6c\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\1810e876a41c81860d7a3273ff768c6c\AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.0.aar\db0ab173fdf15a9f71129946bc90ee84\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.0.aar\db0ab173fdf15a9f71129946bc90ee84\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.0.aar\db0ab173fdf15a9f71129946bc90ee84\AndroidManifest.xml:20:20-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:kinvey_nativescript_sdk:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\kinvey_nativescript_sdk.aar\25a1306df06ae9e29acab17a23b463a0\AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from [:kinvey_nativescript_sdk:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\kinvey_nativescript_sdk.aar\25a1306df06ae9e29acab17a23b463a0\AndroidManifest.xml:9:22-76
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [:nativescript_background_http:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_background_http.aar\67603833377594c1f4fe4cc772443a55\AndroidManifest.xml:9:5-77
+	android:name
+		ADDED from [:nativescript_background_http:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_background_http.aar\67603833377594c1f4fe4cc772443a55\AndroidManifest.xml:9:22-74
+service#com.alexbbb.uploadservice.UploadService
+ADDED from [:nativescript_background_http:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_background_http.aar\67603833377594c1f4fe4cc772443a55\AndroidManifest.xml:15:9-22:19
+	android:enabled
+		ADDED from [:nativescript_background_http:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_background_http.aar\67603833377594c1f4fe4cc772443a55\AndroidManifest.xml:17:13-35
+	android:exported
+		ADDED from [:nativescript_background_http:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_background_http.aar\67603833377594c1f4fe4cc772443a55\AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [:nativescript_background_http:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_background_http.aar\67603833377594c1f4fe4cc772443a55\AndroidManifest.xml:16:13-67
+intent-filter#action:name:org.nativescript.imagepicker.uploadservice.action.upload
+ADDED from [:nativescript_background_http:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_background_http.aar\67603833377594c1f4fe4cc772443a55\AndroidManifest.xml:19:13-21:29
+action#org.nativescript.imagepicker.uploadservice.action.upload
+ADDED from [:nativescript_background_http:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_background_http.aar\67603833377594c1f4fe4cc772443a55\AndroidManifest.xml:20:17-99
+	android:name
+		ADDED from [:nativescript_background_http:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_background_http.aar\67603833377594c1f4fe4cc772443a55\AndroidManifest.xml:20:25-96
+uses-permission#android.permission.CAMERA
+ADDED from [:nativescript_camera:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_camera.aar\226c371e371c04b348d8652476c7efd4\AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from [:nativescript_camera:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_camera.aar\226c371e371c04b348d8652476c7efd4\AndroidManifest.xml:9:22-62
+provider#android.support.v4.content.FileProvider
+ADDED from [:nativescript_camera:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_camera.aar\226c371e371c04b348d8652476c7efd4\AndroidManifest.xml:12:9-20:20
+MERGED from [:nativescript_social_share:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_social_share.aar\05b579966ea03ac2463c8fcb6ea1db7a\AndroidManifest.xml:10:9-18:20
+MERGED from [:nativescript_social_share:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_social_share.aar\05b579966ea03ac2463c8fcb6ea1db7a\AndroidManifest.xml:10:9-18:20
+	android:grantUriPermissions
+		ADDED from [:nativescript_camera:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_camera.aar\226c371e371c04b348d8652476c7efd4\AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [:nativescript_camera:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_camera.aar\226c371e371c04b348d8652476c7efd4\AndroidManifest.xml:14:13-60
+	android:exported
+		ADDED from [:nativescript_camera:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_camera.aar\226c371e371c04b348d8652476c7efd4\AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:nativescript_camera:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_camera.aar\226c371e371c04b348d8652476c7efd4\AndroidManifest.xml:13:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:nativescript_camera:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_camera.aar\226c371e371c04b348d8652476c7efd4\AndroidManifest.xml:17:13-19:58
+MERGED from [:nativescript_social_share:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_social_share.aar\05b579966ea03ac2463c8fcb6ea1db7a\AndroidManifest.xml:15:13-17:58
+MERGED from [:nativescript_social_share:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_social_share.aar\05b579966ea03ac2463c8fcb6ea1db7a\AndroidManifest.xml:15:13-17:58
+	android:resource
+		ADDED from [:nativescript_camera:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_camera.aar\226c371e371c04b348d8652476c7efd4\AndroidManifest.xml:19:17-55
+	android:name
+		ADDED from [:nativescript_camera:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_camera.aar\226c371e371c04b348d8652476c7efd4\AndroidManifest.xml:18:17-67
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from [:nativescript_geolocation:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_geolocation.aar\2d007b332dc5675579361b3a2c7e2166\AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from [:nativescript_geolocation:] C:\Users\alimur.razi\.gradle\caches\transforms-1\files-1.1\nativescript_geolocation.aar\2d007b332dc5675579361b3a2c7e2166\AndroidManifest.xml:9:22-76
