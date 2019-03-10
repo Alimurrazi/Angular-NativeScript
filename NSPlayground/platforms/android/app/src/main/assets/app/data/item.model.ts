@@ -12,4 +12,6 @@ export interface Item {
     comments: number;
     rating: string;
     description: string;
+    amount: number;
+    isCarted: boolean;
 }

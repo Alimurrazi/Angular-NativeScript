@@ -133,11 +133,11 @@
                 [src]="selectedTab==0?'~/assets/images/navhomem.png':'~/assets/images/navhome.png'"></Image>
             <Label row="1" *ngIf="selectedTab==0" text="Home" class="navText"></Label>
         </GridLayout>
-
+ 
         <GridLayout [class]="selectedTab==1?'nav active':'nav'" (tap)="onCartTap()"
             rows="*,auto" cols="auto" col="1" row="0" width="25%">
             <Image [class]="selectedTab==1?'navIcon ':'navIcon'" row="0"
-                [src]="selectedTab==1?'~/assets/images/navcartm.png':'~/assets/images/navcart.png'"></Image>
+                [src]="selectedTab==1?'~/assets/images/navcartm.png':'~/assets/images/navcart.png'" [nsRouterLink]="['/cart']"></Image>
             <Label row="1" *ngIf="selectedTab == 1" text="Cart" class="navText"></Label>
         </GridLayout>
 

@@ -1,6 +1,7 @@
 E:\angular-native\NSPlayground\platforms\android\app\src\main\assets\app\app-routing.module.js
 E:\angular-native\NSPlayground\platforms\android\app\src\main\assets\app\app.component.js
 E:\angular-native\NSPlayground\platforms\android\app\src\main\assets\app\app.module.js
+E:\angular-native\NSPlayground\platforms\android\app\src\main\assets\app\cart\cart.component.js
 E:\angular-native\NSPlayground\platforms\android\app\src\main\assets\app\data\category.model.js
 E:\angular-native\NSPlayground\platforms\android\app\src\main\assets\app\data\data.js
 E:\angular-native\NSPlayground\platforms\android\app\src\main\assets\app\data\item.model.js
@@ -106,6 +107,7 @@ E:\angular-native\NSPlayground\platforms\android\app\src\main\assets\app\tns_mod
 E:\angular-native\NSPlayground\platforms\android\app\src\main\assets\app\tns_modules\nativescript-intl\nativescript-intl-common.js
 E:\angular-native\NSPlayground\platforms\android\app\src\main\assets\app\tns_modules\nativescript-intl\nativescript-intl.js
 E:\angular-native\NSPlayground\platforms\android\app\src\main\assets\app\tns_modules\nativescript-iqkeyboardmanager\iqkeyboardmanager.js
+E:\angular-native\NSPlayground\platforms\android\app\src\main\assets\app\tns_modules\nativescript-localstorage\localstorage.js
 E:\angular-native\NSPlayground\platforms\android\app\src\main\assets\app\tns_modules\nativescript-permissions\permissions.js
 E:\angular-native\NSPlayground\platforms\android\app\src\main\assets\app\tns_modules\nativescript-social-share\social-share.js
 E:\angular-native\NSPlayground\platforms\android\app\src\main\assets\app\tns_modules\nativescript-sqlite\sqlite.js

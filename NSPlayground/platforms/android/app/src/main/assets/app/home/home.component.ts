@@ -3,6 +3,7 @@ import { RouterExtensions } from "nativescript-angular/router";
 import { Item } from "../data/item.model";
 import { Category } from "../data/category.model";
 import { DataService } from "../data/data";
+import { Router } from '@angular/router';
 
 @Component({
     selector: "Home",
@@ -20,7 +21,7 @@ export class HomeComponent implements OnInit {
     items: Array<Item>;
     categories: Array<Category>;
 
-    constructor(private routerExtensions: RouterExtensions, private dataService: DataService) {
+    constructor(private routerExtensions: RouterExtensions, private dataService: DataService, private router: Router) {
         //Set up to get data from shared service to help moving from mocking data to real API calls in the future
         this.items = this.dataService.getItems();
         this.categories = this.dataService.getCategories();

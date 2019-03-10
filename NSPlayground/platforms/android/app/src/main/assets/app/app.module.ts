@@ -6,8 +6,10 @@ import { AppComponent } from "./app.component";
 
 import { HomeComponent } from "./home/home.component";
 import { DetailComponent } from "./detail/detail.component";
+import { CartComponent } from "./cart/cart.component";
 
 import { DataService } from "./data/data";
+
 
 @NgModule({
     bootstrap: [
@@ -20,7 +22,8 @@ import { DataService } from "./data/data";
     declarations: [
         AppComponent,
         HomeComponent,
-        DetailComponent
+        DetailComponent,
+        CartComponent
     ],
     providers: [
         DataService

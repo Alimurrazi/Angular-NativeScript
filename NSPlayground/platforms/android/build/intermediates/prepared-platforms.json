@@ -19,6 +19,7 @@
     "nativescript-imagepicker": true,
     "nativescript-intl": true,
     "nativescript-iqkeyboardmanager": true,
+    "nativescript-localstorage": true,
     "nativescript-social-share": true,
     "nativescript-theme-core": true,
     "nativescript-ui-autocomplete": true,

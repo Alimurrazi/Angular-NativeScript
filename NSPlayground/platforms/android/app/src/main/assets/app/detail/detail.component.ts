@@ -76,4 +76,8 @@ export class DetailComponent implements OnInit {
         this.routerExtensions.back();
     }
 
+    addCart(itemId): void{
+        
+    }
+
 }

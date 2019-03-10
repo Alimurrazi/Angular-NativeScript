@@ -44,6 +44,10 @@
         "directory": "..\\..\\node_modules\\nativescript-iqkeyboardmanager"
     },
     {
+        "name": "nativescript-localstorage",
+        "directory": "..\\..\\node_modules\\nativescript-localstorage"
+    },
+    {
         "name": "nativescript-social-share",
         "directory": "..\\..\\node_modules\\nativescript-social-share"
     },
