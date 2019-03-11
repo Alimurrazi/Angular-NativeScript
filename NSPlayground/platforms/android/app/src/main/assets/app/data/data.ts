@@ -10,7 +10,6 @@ export class DataService {
 
         let localStorage = require("nativescript-localstorage");
         var allItem = JSON.parse(localStorage.getItem('items'));
-        console.log(allItem);
         if(allItem == null)
         {
             allItem = [{
@@ -39,7 +38,7 @@ export class DataService {
                     \nRatione maiores, veritatis nesciunt sint dolorum sequi dicta omnis dolor blanditiis, ipsam officiis commodi temporibus quas non nobis tempore saepe necessitatibus quasi! Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                     \nNesciunt sint dolorum sequi dicta omnis dolor blanditiis, ipsam officiis commodi temporibus quas non nobis tempore saepe necessitatibus quasi!`,
                 "amount": 1,
-                "isCarted": false,
+                "isCarted": true,
             },
             {
                 "id": 2,
@@ -124,7 +123,7 @@ export class DataService {
 				\nRatione maiores, veritatis nesciunt sint dolorum sequi dicta omnis dolor blanditiis, ipsam officiis commodi temporibus quas non nobis tempore saepe necessitatibus quasi! Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                 \nNesciunt sint dolorum sequi dicta omnis dolor blanditiis, ipsam officiis commodi temporibus quas non nobis tempore saepe necessitatibus quasi!`,
             amount: 1,
-            isCarted: false,
+            isCarted: true,
         },
         {
             id: 2,

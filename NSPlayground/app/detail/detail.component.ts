@@ -17,6 +17,7 @@ export class DetailComponent implements OnInit {
     itemId: number;
     item: Item;
     items: Array<Item>;
+    isCarted;
 
     constructor(
         private pageRoute: PageRoute,
@@ -33,6 +34,8 @@ export class DetailComponent implements OnInit {
         ).forEach((params) => {
             this.itemId = +params["id"];            
             this.item = this.items.filter(item => item.id == this.itemId)[0];
+            console.log(this.item.isCarted);
+            this.isCarted = this.item.isCarted;
         });
     }
 
@@ -77,7 +80,12 @@ export class DetailComponent implements OnInit {
     }
 
     addCart(itemId): void{
-        
+        console.log("food carted...");
+        let localStorage = require("nativescript-localstorage");
+        var allItem = JSON.parse(localStorage.getItem('allItem'));
+        allItem[itemId-1].isCarted = true;
+        this.isCarted = true;
+        localStorage.setItem("allItem",JSON.stringify(allItem));
     }
 
 }

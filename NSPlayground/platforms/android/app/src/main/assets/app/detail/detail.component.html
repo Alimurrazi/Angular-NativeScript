@@ -67,7 +67,7 @@
             </GridLayout> -->
             <StackLayout col="3" orientation="horizontal">
                 <Label ref="" class="like-icon layout fa" text="&#xf217;"></Label>
-                <Label class="layout" text="Add to cart" (tap)="addCart(item.id)"></Label>
+                <Label class="layout" text="Add to cart" (tap)="addCart(item.id)" [ngStyle]="{'color': isCarted? 'green' : 'red'}"></Label>
             </StackLayout>
 
         </GridLayout>
