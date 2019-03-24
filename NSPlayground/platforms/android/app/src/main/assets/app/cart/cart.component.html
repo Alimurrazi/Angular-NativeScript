@@ -12,10 +12,10 @@
                 <ng-template let-item="item">
                         <GridLayout class="page-item" columns="50, 50, 50, *, 100" rows="auto, auto, auto, auto">
                                 <Label row="0" col="0" colSpan="5" rowSpan="2" [text]="item.name" textWrap="true" class="food-name" marginTop="10" marginLeft="10"></Label>
-                                <Label row="2" col="0" colSpan="2" text="No Toppings" textWrap="true" class="topping" marginLeft="10" fontAttributes="Italic"></Label>
+                                <Label row="2" col="0" colSpan="2" [text]="item.toppingMsg" class="topping" marginLeft="10"></Label>
                                 <Button row="3" col="0" class="btn btn-primary btn-active" class="btn-plus" text="+" marginLeft="10" (tap)="addAmount(item.id)"></Button>
                                 <Label text="Label 2" row="3" col="1" [text]="item.amount" textAlignment="center" verticalAlignment="middle" class="item-number"></Label>
-                                <Button row="3" col="2" class="btn btn-primary btn-active" class="btn-minus" text="-" marginLeft="10"></Button>
+                                <Button row="3" col="2" class="btn btn-primary btn-active" class="btn-minus" text="-" marginLeft="10" (tap)="removeAmount(item.id)"></Button>
                                 <Label row="3" col="4" [text]=" item.price * item.amount " textAlignment="right" verticalAlignment="middle" marginRight="10"></Label>
                         </GridLayout>
                 </ng-template>

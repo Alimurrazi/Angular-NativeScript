@@ -1,5 +1,7 @@
 import { Component, OnInit } from "@angular/core";
-import { Router } from '@angular/router';
+import { Router } from "@angular/router";
+import * as dialogs from "tns-core-modules/ui/dialogs";
+import { ObservableArray, ChangedData } from "tns-core-modules/data/observable-array";
 @Component({
   selector: "Cart",
   moduleId: module.id,
@@ -14,14 +16,17 @@ export class CartComponent implements OnInit {
     // Use the component constructor to inject providers.
   }
 
-  ngOnInit(): void {
-    // Init your component properties here.
+  getCartedData() {
     let localStorage = require("nativescript-localstorage");
     var allItem = JSON.parse(localStorage.getItem("allItem"));
     allItem = allItem.filter(item => item.isCarted == true);
     this.items = allItem;
-    console.log(this.items);
+    //  console.log(this.items);
     this.totalPriceCalculation(allItem);
+  }
+
+  ngOnInit(): void {
+    this.getCartedData();
   }
 
   totalPriceCalculation(allItem) {
@@ -31,13 +36,40 @@ export class CartComponent implements OnInit {
     });
   }
 
-  addAmount(itemId){
+  addAmount(itemId) {
     console.log("add...");
     let localStorage = require("nativescript-localstorage");
-    var allItem = JSON.parse(localStorage.getItem('allItem'));
-    allItem[itemId-1].amount++;
-    localStorage.setItem("allItem",JSON.stringify(allItem));
-    this.router.navigate(['cart']);
+    var allItem = JSON.parse(localStorage.getItem("allItem"));
+    allItem[itemId - 1].amount++;
+  //  console.log(allItem[itemId - 1]);
+    localStorage.setItem("allItem", JSON.stringify(allItem));
+    //  this.router.navigate(['cart']);
+    this.getCartedData();
   }
 
+  removeAmount(itemId) {
+    console.log("remove...");
+    let localStorage = require("nativescript-localstorage");
+    var allItem = JSON.parse(localStorage.getItem("allItem"));
+    var currentAmount = allItem[itemId - 1].amount - 1;
+    if (currentAmount == 0) {
+      this.showDialog();
+    } else {
+      allItem[itemId - 1].amount = currentAmount;
+      localStorage.setItem("allItem", JSON.stringify(allItem));
+      this.getCartedData();
+    }
+  }
+
+  showDialog() {
+    dialogs
+      .alert({
+        title: "",
+        message: "You must select one item... ",
+        okButtonText: "Ok"
+      })
+      .then(() => {
+        console.log("Dialog closed!");
+      });
+  }
 }
