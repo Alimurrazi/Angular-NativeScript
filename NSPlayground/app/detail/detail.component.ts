@@ -24,8 +24,11 @@ export class DetailComponent implements OnInit {
         private routerExtensions: RouterExtensions,
         private page: Page,
         private dataService: DataService) {
+        
+        let localStorage = require("nativescript-localstorage");
+        this.items = JSON.parse(localStorage.getItem('allItem'));
 
-        this.items = this.dataService.getItems();        
+    //    this.items = this.dataService.getItems();        
 
         this.page.actionBarHidden = true;
 
@@ -34,7 +37,7 @@ export class DetailComponent implements OnInit {
         ).forEach((params) => {
             this.itemId = +params["id"];            
             this.item = this.items.filter(item => item.id == this.itemId)[0];
-            console.log(this.item.isCarted);
+            console.log("the item is carted..........."+this.item.isCarted);
             this.isCarted = this.item.isCarted;
         });
     }
@@ -83,9 +86,22 @@ export class DetailComponent implements OnInit {
         console.log("food carted...");
         let localStorage = require("nativescript-localstorage");
         var allItem = JSON.parse(localStorage.getItem('allItem'));
-        allItem[itemId-1].isCarted = true;
-        this.isCarted = true;
+
+        if(allItem[itemId-1].isCarted==true)
+        {
+            allItem[itemId-1].isCarted = false;
+            this.isCarted = false;
+        }
+        else
+        {
+            allItem[itemId-1].isCarted = true;
+            this.isCarted = true;
+        }
+
         localStorage.setItem("allItem",JSON.stringify(allItem));
+    }
+    onCartTap(){
+        
     }
 
 }

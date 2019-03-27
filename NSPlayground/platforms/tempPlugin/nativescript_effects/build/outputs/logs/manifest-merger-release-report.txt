@@ -1,0 +1,31 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\angular-native\NSPlayground\platforms\tempPlugin\nativescript_effects\src\main\AndroidManifest.xml:2:1-119
+INJECTED from E:\angular-native\NSPlayground\platforms\tempPlugin\nativescript_effects\src\main\AndroidManifest.xml:2:1-119
+INJECTED from E:\angular-native\NSPlayground\platforms\tempPlugin\nativescript_effects\src\main\AndroidManifest.xml:2:1-119
+INJECTED from E:\angular-native\NSPlayground\platforms\tempPlugin\nativescript_effects\src\main\AndroidManifest.xml:2:1-119
+INJECTED from E:\angular-native\NSPlayground\platforms\tempPlugin\nativescript_effects\src\main\AndroidManifest.xml:2:1-119
+INJECTED from E:\angular-native\NSPlayground\platforms\tempPlugin\nativescript_effects\src\main\AndroidManifest.xml:2:1-119
+INJECTED from E:\angular-native\NSPlayground\platforms\tempPlugin\nativescript_effects\src\main\AndroidManifest.xml:2:1-119
+	package
+		ADDED from E:\angular-native\NSPlayground\platforms\tempPlugin\nativescript_effects\src\main\AndroidManifest.xml:2:70-117
+		INJECTED from E:\angular-native\NSPlayground\platforms\tempPlugin\nativescript_effects\src\main\AndroidManifest.xml
+		INJECTED from E:\angular-native\NSPlayground\platforms\tempPlugin\nativescript_effects\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\angular-native\NSPlayground\platforms\tempPlugin\nativescript_effects\src\main\AndroidManifest.xml
+		ADDED from E:\angular-native\NSPlayground\platforms\tempPlugin\nativescript_effects\src\main\AndroidManifest.xml:2:1-119
+		INJECTED from E:\angular-native\NSPlayground\platforms\tempPlugin\nativescript_effects\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\angular-native\NSPlayground\platforms\tempPlugin\nativescript_effects\src\main\AndroidManifest.xml
+		ADDED from E:\angular-native\NSPlayground\platforms\tempPlugin\nativescript_effects\src\main\AndroidManifest.xml:2:1-119
+		INJECTED from E:\angular-native\NSPlayground\platforms\tempPlugin\nativescript_effects\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\angular-native\NSPlayground\platforms\tempPlugin\nativescript_effects\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+INJECTED from E:\angular-native\NSPlayground\platforms\tempPlugin\nativescript_effects\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\angular-native\NSPlayground\platforms\tempPlugin\nativescript_effects\src\main\AndroidManifest.xml
+INJECTED from E:\angular-native\NSPlayground\platforms\tempPlugin\nativescript_effects\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\angular-native\NSPlayground\platforms\tempPlugin\nativescript_effects\src\main\AndroidManifest.xml
+		ADDED from E:\angular-native\NSPlayground\platforms\tempPlugin\nativescript_effects\src\main\AndroidManifest.xml
+		INJECTED from E:\angular-native\NSPlayground\platforms\tempPlugin\nativescript_effects\src\main\AndroidManifest.xml

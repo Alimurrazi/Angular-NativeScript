@@ -98,6 +98,8 @@ E:\angular-native\NSPlayground\platforms\android\app\src\main\assets\app\tns_mod
 E:\angular-native\NSPlayground\platforms\android\app\src\main\assets\app\tns_modules\nativescript-background-http\typings\java!uploadservice-3.4.2.js
 E:\angular-native\NSPlayground\platforms\android\app\src\main\assets\app\tns_modules\nativescript-camera\camera.common.js
 E:\angular-native\NSPlayground\platforms\android\app\src\main\assets\app\tns_modules\nativescript-camera\camera.js
+E:\angular-native\NSPlayground\platforms\android\app\src\main\assets\app\tns_modules\nativescript-effects\effects.common.js
+E:\angular-native\NSPlayground\platforms\android\app\src\main\assets\app\tns_modules\nativescript-effects\effects.js
 E:\angular-native\NSPlayground\platforms\android\app\src\main\assets\app\tns_modules\nativescript-fresco\nativescript-fresco-common.js
 E:\angular-native\NSPlayground\platforms\android\app\src\main\assets\app\tns_modules\nativescript-fresco\nativescript-fresco.js
 E:\angular-native\NSPlayground\platforms\android\app\src\main\assets\app\tns_modules\nativescript-geolocation\geolocation.common.js

@@ -11,7 +11,7 @@
         <ListView [items]="items" class="list-group" height="500">
                 <ng-template let-item="item">
                         <GridLayout class="page-item" columns="50, 50, 50, *, 100" rows="auto, auto, auto, auto">
-                                <Label row="0" col="0" colSpan="5" rowSpan="2" [text]="item.name" textWrap="true" class="food-name" marginTop="10" marginLeft="10"></Label>
+                                <Label row="0" col="0" colSpan="5" rowSpan="2" [text]="item.name" textWrap="true" class="food-name" marginTop="10" marginLeft="10" [nsRouterLink]="['/detail/'+item.id]"></Label>
                                 <Label row="2" col="0" colSpan="2" [text]="item.toppingMsg" class="topping" marginLeft="10"></Label>
                                 <Button row="3" col="0" class="btn btn-primary btn-active" class="btn-plus" text="+" marginLeft="10" (tap)="addAmount(item.id)"></Button>
                                 <Label text="Label 2" row="3" col="1" [text]="item.amount" textAlignment="center" verticalAlignment="middle" class="item-number"></Label>
@@ -25,7 +25,7 @@
         <StackLayout row="1" orientation="horizontal" class="footer">
                 <GridLayout rows="*" columns="*">
                         <Label style="font-size: 20em;" text="Total" textAlignment="left" verticalAlignment="middle"></Label>
-                        <Label coloumn="0" [text]=" this.totalPrice " verticalAlignment="middle" horizontalAlignment="right" ></Label>
+                        <Label coloumn="0" [text]=" this.totalPrice +' TK'" verticalAlignment="middle" horizontalAlignment="right" ></Label>
                 </GridLayout>
         </StackLayout>
 

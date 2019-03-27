@@ -19,10 +19,10 @@ export class CartComponent implements OnInit {
   getCartedData() {
     let localStorage = require("nativescript-localstorage");
     var allItem = JSON.parse(localStorage.getItem("allItem"));
-    allItem = allItem.filter(item => item.isCarted == true);
-    this.items = allItem;
-    //  console.log(this.items);
-    this.totalPriceCalculation(allItem);
+    this.items = allItem.filter(item => item.isCarted == true);
+   // this.items = allItem;
+    console.log(this.items);
+    this.totalPriceCalculation(this.items);
   }
 
   ngOnInit(): void {
@@ -72,4 +72,7 @@ export class CartComponent implements OnInit {
         console.log("Dialog closed!");
       });
   }
+
+
+
 }

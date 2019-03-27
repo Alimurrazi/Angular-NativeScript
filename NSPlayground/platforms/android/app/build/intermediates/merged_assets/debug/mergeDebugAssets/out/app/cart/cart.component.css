@@ -6,11 +6,11 @@
     font-size: 20px;
 }
 
-.topping
+/* .topping
 {
     margin-top: 2%;
     margin-bottom: 2%;
-}
+} */
 
 .btn
 {
@@ -42,4 +42,6 @@ label{
 .topping
 {
     font-style: italic;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }

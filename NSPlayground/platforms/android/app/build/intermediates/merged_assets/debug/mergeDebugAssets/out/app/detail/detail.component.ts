@@ -17,14 +17,18 @@ export class DetailComponent implements OnInit {
     itemId: number;
     item: Item;
     items: Array<Item>;
+    isCarted;
 
     constructor(
         private pageRoute: PageRoute,
         private routerExtensions: RouterExtensions,
         private page: Page,
         private dataService: DataService) {
+        
+        let localStorage = require("nativescript-localstorage");
+        this.items = JSON.parse(localStorage.getItem('allItem'));
 
-        this.items = this.dataService.getItems();        
+    //    this.items = this.dataService.getItems();        
 
         this.page.actionBarHidden = true;
 
@@ -33,6 +37,8 @@ export class DetailComponent implements OnInit {
         ).forEach((params) => {
             this.itemId = +params["id"];            
             this.item = this.items.filter(item => item.id == this.itemId)[0];
+            console.log("the item is carted..........."+this.item.isCarted);
+            this.isCarted = this.item.isCarted;
         });
     }
 
@@ -74,6 +80,36 @@ export class DetailComponent implements OnInit {
 
     onCloseTap(): void {
         this.routerExtensions.back();
+    }
+
+    addCart(itemId): void{
+       
+        var myLabel = this.page.getViewById('cartImg');
+        console.log(myLabel);
+    //     myLabel.fadeIn()
+    //    .then(function(){
+    //        myLabel.fadeOut(10000);
+    //    });
+
+        console.log("food carted...");
+        let localStorage = require("nativescript-localstorage");
+        var allItem = JSON.parse(localStorage.getItem('allItem'));
+
+        if(allItem[itemId-1].isCarted==true)
+        {
+            allItem[itemId-1].isCarted = false;
+            this.isCarted = false;
+        }
+        else
+        {
+            allItem[itemId-1].isCarted = true;
+            this.isCarted = true;
+        }
+
+        localStorage.setItem("allItem",JSON.stringify(allItem));
+    }
+    onCartTap(){
+        
     }
 
 }

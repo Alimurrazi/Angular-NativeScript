@@ -75,16 +75,16 @@
 
     <StackLayout width="100%" class="lineBreak anim-likes"></StackLayout>
 
-    <Gridlayout rows="auto,*" class="content anim-content" marginTop="15">
+    <Gridlayout rows="auto,*,auto" class="anim-content" marginTop="15">
 
-        <GridLayout row="0" rows="auto" marginBottom="5" columns="auto, auto">
+        <GridLayout row="0" rows="auto" marginBottom="5" columns="auto, auto" class="content">
             <Label col="0" text="&#xf02c;" class="fa description-icon"
                 textWrap="true"></Label>
             <Label col="1" class="description-text" text="Description"
                 textWrap="true"></Label>
         </GridLayout>
 
-        <StackLayout row="1">
+        <StackLayout row="1" class="content">
             <ScrollView>
                 <StackLayout verticalAlignment="top" horizontalAlignment="left"
                     *ngIf="item">
@@ -95,6 +95,33 @@
             </ScrollView>
         </StackLayout>
 
+        <GridLayout class="navBottom" height="50" width="100%" row="2" rows="auto"
+        columns="auto,auto,auto,auto">
+    
+        <GridLayout [class]="'nav'"
+            rows="*,auto" cols="auto" col="0" row="0" width="25%">
+            <Image row="0" [class]="'navIcon'"
+                [src]="'~/assets/images/navhome.png'"></Image>
+        </GridLayout>
+    
+        <GridLayout [class]="'nav'" (tap)="onCartTap()"
+            rows="*,auto" cols="auto" col="1" row="0" width="25%">
+            <Image row="0" [class]="'navIcon'" id="cartImg"
+                [src]="'~/assets/images/navcartm.png'" [nsRouterLink]="['/cart']"></Image>
+        </GridLayout>
+    
+        <GridLayout [class]="'nav'"
+            rows="*,auto" cols="auto" col="2" row="0" width="25%">
+            <Image row="0" [class]="'navIcon'"
+                [src]="'~/assets/images/navorders.png'"></Image>
+        </GridLayout>
+    
+        <GridLayout [class]="'nav'"
+            rows="*,auto" cols="auto" col="3" row="0" width="25%">
+            <Image row="0" [class]="'navIcon'"
+                [src]="'~/assets/images/navus.png'"></Image>
+        </GridLayout>
+    </GridLayout>
 
     </Gridlayout>
 
