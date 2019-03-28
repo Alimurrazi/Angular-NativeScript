@@ -96,7 +96,7 @@
         </StackLayout>
 
         <GridLayout class="navBottom" height="50" width="100%" row="2" rows="auto"
-        columns="auto,auto,auto,auto">
+        columns="*,*,*,*">
     
         <GridLayout [class]="'nav'"
             rows="*,auto" cols="auto" col="0" row="0" width="25%">
@@ -104,11 +104,19 @@
                 [src]="'~/assets/images/navhome.png'"></Image>
         </GridLayout>
     
-        <GridLayout [class]="'nav'" (tap)="onCartTap()"
+        <!-- <GridLayout [class]="'nav'" (tap)="onCartTap()"
             rows="*,auto" cols="auto" col="1" row="0" width="25%">
             <Image row="0" [class]="'navIcon'" id="cartImg"
                 [src]="'~/assets/images/navcartm.png'" [nsRouterLink]="['/cart']"></Image>
-        </GridLayout>
+            <Label class="badge badge-warning" id="lblCartCount" [text]="5"></Label>    
+        </GridLayout> -->
+
+        <AbsoluteLayout [class]="'nav'" backgroundColor="lightgray" col="1" row="0" width="25%">
+            <!-- <Label text="no margin" left="10" top="10" width="100" height="100" backgroundColor="red"></Label> -->
+            <Image [class]="'navIcon'" left="30" top="12" id="cartImg" [src]="'~/assets/images/navcartm.png'" [nsRouterLink]="['/cart']"></Image>
+            <Label class="badge badge-warning" left="37" width="20" id="CartCount" [text]="totalCartedItem" backgroundColor="#47cf73"></Label>
+            <!-- <Label text="margin='30'" left="10" top="10" margin="30" width="100" height="90" backgroundColor="green"></Label> -->
+        </AbsoluteLayout>
     
         <GridLayout [class]="'nav'"
             rows="*,auto" cols="auto" col="2" row="0" width="25%">

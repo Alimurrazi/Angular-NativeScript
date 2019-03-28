@@ -1,7 +1,7 @@
 import { Component, OnInit } from "@angular/core";
 import { RouterExtensions } from "nativescript-angular/router";
 import { switchMap } from "rxjs/operators";
-import { Page } from "ui/page";
+import { Page, View } from "ui/page";
 import { PageRoute } from "nativescript-angular/router";
 import { Item } from "../data/item.model";
 import { DataService } from "../data/data";
@@ -18,6 +18,7 @@ export class DetailComponent implements OnInit {
     item: Item;
     items: Array<Item>;
     isCarted;
+    totalCartedItem = 0;
 
     constructor(
         private pageRoute: PageRoute,
@@ -27,7 +28,7 @@ export class DetailComponent implements OnInit {
         
         let localStorage = require("nativescript-localstorage");
         this.items = JSON.parse(localStorage.getItem('allItem'));
-
+      //  this.findTotalCartedItem();
     //    this.items = this.dataService.getItems();        
 
         this.page.actionBarHidden = true;
@@ -83,6 +84,7 @@ export class DetailComponent implements OnInit {
     }
 
     addCart(itemId): void{
+
         console.log("food carted...");
         let localStorage = require("nativescript-localstorage");
         var allItem = JSON.parse(localStorage.getItem('allItem'));
@@ -97,11 +99,29 @@ export class DetailComponent implements OnInit {
             allItem[itemId-1].isCarted = true;
             this.isCarted = true;
         }
-
-        localStorage.setItem("allItem",JSON.stringify(allItem));
-    }
-    onCartTap(){
         
+        localStorage.setItem("allItem",JSON.stringify(allItem));
+        this.findTotalCartedItem();
+    }
+
+    findTotalCartedItem()
+    {   
+        this.createAnimationOnCart();
+        let localStorage = require("nativescript-localstorage");
+        var allItem = JSON.parse(localStorage.getItem("allItem"));
+        this.totalCartedItem = allItem.filter(item => item.isCarted == true).length;
+        console.log("...................."+this.totalCartedItem);
+    }
+
+    createAnimationOnCart()
+    {
+        const count: View = this.page.getViewById("CartCount");
+        count.createAnimation({opacity: 0});
+        const cart: View = this.page.getViewById("cartImg");
+        cart.animate({
+            rotate: 360,
+            duration: 1000
+        }).then(()=>count.createAnimation({opacity: 1}));
     }
 
 }
