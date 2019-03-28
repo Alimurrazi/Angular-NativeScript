@@ -83,14 +83,6 @@ export class DetailComponent implements OnInit {
     }
 
     addCart(itemId): void{
-       
-        var myLabel = this.page.getViewById('cartImg');
-        console.log(myLabel);
-    //     myLabel.fadeIn()
-    //    .then(function(){
-    //        myLabel.fadeOut(10000);
-    //    });
-
         console.log("food carted...");
         let localStorage = require("nativescript-localstorage");
         var allItem = JSON.parse(localStorage.getItem('allItem'));
