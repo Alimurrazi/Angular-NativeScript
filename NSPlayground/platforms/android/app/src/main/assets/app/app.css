@@ -214,3 +214,10 @@ The imported CSS rules must precede all other types of rules.
         color: #d62526;
         horizontal-align: center;
     }
+
+    #CartCount
+    {
+        font-size: 15;
+        border-radius: 50%;
+        text-align: center;
+    }

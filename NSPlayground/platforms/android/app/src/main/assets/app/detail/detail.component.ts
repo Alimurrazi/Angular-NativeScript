@@ -5,7 +5,8 @@ import { Page, View } from "ui/page";
 import { PageRoute } from "nativescript-angular/router";
 import { Item } from "../data/item.model";
 import { DataService } from "../data/data";
-
+import * as application from "tns-core-modules/application";
+import { Router } from "@angular/router";
 @Component({
     selector: "Detail",
     moduleId: module.id,
@@ -24,12 +25,13 @@ export class DetailComponent implements OnInit {
         private pageRoute: PageRoute,
         private routerExtensions: RouterExtensions,
         private page: Page,
-        private dataService: DataService) {
+        private dataService: DataService,
+        private router: Router) {
         
         let localStorage = require("nativescript-localstorage");
         this.items = JSON.parse(localStorage.getItem('allItem'));
-      //  this.findTotalCartedItem();
-    //    this.items = this.dataService.getItems();        
+        this.findTotalCartedItem();
+    //  this.items = this.dataService.getItems();        
 
         this.page.actionBarHidden = true;
 
@@ -44,6 +46,10 @@ export class DetailComponent implements OnInit {
     }
 
     ngOnInit(): void {
+        application.android.on(application.AndroidApplication.activityBackPressedEvent, (args: any) => {
+            args.cancel = true;
+            this.router.navigate(['']);
+        });
     }
 
     toggleLike() {
@@ -100,28 +106,37 @@ export class DetailComponent implements OnInit {
             this.isCarted = true;
         }
         
+        localStorage.clear();
         localStorage.setItem("allItem",JSON.stringify(allItem));
         this.findTotalCartedItem();
+        this.createAnimationOnCart();
     }
 
     findTotalCartedItem()
     {   
-        this.createAnimationOnCart();
         let localStorage = require("nativescript-localstorage");
         var allItem = JSON.parse(localStorage.getItem("allItem"));
         this.totalCartedItem = allItem.filter(item => item.isCarted == true).length;
-        console.log("...................."+this.totalCartedItem);
     }
 
     createAnimationOnCart()
     {
-        const count: View = this.page.getViewById("CartCount");
-        count.createAnimation({opacity: 0});
+        // const count: View = this.page.getViewById("CartCount");
+        // count.createAnimation({opacity: 0});
+        // const cart: View = this.page.getViewById("cartImg");
+        // cart.animate({
+        //     rotate: 360,
+        //     duration: 1000
+        // }).then(()=>count.createAnimation({opacity: 1}));
+
+      //  const count: View = this.page.getViewById("CartCount");
+      //  count.createAnimation({opacity: 0});
         const cart: View = this.page.getViewById("cartImg");
+        console.log(cart);
         cart.animate({
             rotate: 360,
             duration: 1000
-        }).then(()=>count.createAnimation({opacity: 1}));
+        }).then(()=>cart.rotate=0);
     }
 
 }

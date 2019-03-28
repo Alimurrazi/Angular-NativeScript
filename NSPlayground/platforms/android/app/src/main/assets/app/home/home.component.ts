@@ -20,11 +20,13 @@ export class HomeComponent implements OnInit {
     selectedTabview = 0;
     items: Array<Item>;
     categories: Array<Category>;
+    totalCartedItem;
 
     constructor(private routerExtensions: RouterExtensions, private dataService: DataService, private router: Router) {
         //Set up to get data from shared service to help moving from mocking data to real API calls in the future
         this.items = this.dataService.getItems();
         this.categories = this.dataService.getCategories();
+        this.findTotalCartedItem();
     }
 
     ngOnInit(): void {
@@ -110,6 +112,13 @@ export class HomeComponent implements OnInit {
 
     onAboutTap() {
         this.selectedTab = 3;
+    }
+
+    findTotalCartedItem()
+    {    
+        let localStorage = require("nativescript-localstorage");
+        var allItem = JSON.parse(localStorage.getItem("allItem"));
+        this.totalCartedItem = allItem.filter(item => item.isCarted == true).length;
     }
 
 }

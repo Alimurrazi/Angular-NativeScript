@@ -55,16 +55,6 @@
                 <Label col="0" row="0" class="layout" [text]="item.price + ' TK'"></Label>
             </GridLayout>
 
-            <!-- <StackLayout col="1" orientation="horizontal" marginLeft="15">
-                <Label ref="" class="like-icon layout fa" text="&#xf0e5;"></Label>
-                <Label class="layout" [text]="item.comments"></Label>
-            </StackLayout>
-            <GridLayout col="2" rows="auto" columns="auto,auto" (tap)="toggleHeart(item)"
-                marginRight="15">
-                <Label col="0" row="0" #favorite [class]="item.isFavorite ? 'like-icon fa heart-active' : 'like-icon fa default'"
-                    [text]="item.isFavorite ? '&#xf004;':'&#xf08a;'"></Label>
-                <Label col="1" row="0" class="layout" text="Favorite"></Label>
-            </GridLayout> -->
             <StackLayout col="3" orientation="horizontal">
                 <Label ref="" class="like-icon layout fa" text="&#xf217;"></Label>
                 <Label class="layout" text="Add to cart" (tap)="addCart(item.id)" [ngStyle]="{'color': isCarted? 'green' : 'red'}"></Label>
@@ -101,7 +91,7 @@
         <GridLayout [class]="'nav'"
             rows="*,auto" cols="auto" col="0" row="0" width="25%">
             <Image row="0" [class]="'navIcon'"
-                [src]="'~/assets/images/navhome.png'"></Image>
+                [src]="'~/assets/images/navhome.png'" [nsRouterLink]="['/home']"></Image>
         </GridLayout>
     
         <!-- <GridLayout [class]="'nav'" (tap)="onCartTap()"
@@ -114,7 +104,7 @@
         <AbsoluteLayout [class]="'nav'" backgroundColor="lightgray" col="1" row="0" width="25%">
             <!-- <Label text="no margin" left="10" top="10" width="100" height="100" backgroundColor="red"></Label> -->
             <Image [class]="'navIcon'" left="30" top="12" id="cartImg" [src]="'~/assets/images/navcartm.png'" [nsRouterLink]="['/cart']"></Image>
-            <Label class="badge badge-warning" left="37" width="20" id="CartCount" [text]="totalCartedItem" backgroundColor="#47cf73"></Label>
+            <Label *ngIf="totalCartedItem>0" class="badge badge-warning" left="37" width="20" id="CartCount" [text]="totalCartedItem" backgroundColor="#47cf73"></Label>
             <!-- <Label text="margin='30'" left="10" top="10" margin="30" width="100" height="90" backgroundColor="green"></Label> -->
         </AbsoluteLayout>
     
