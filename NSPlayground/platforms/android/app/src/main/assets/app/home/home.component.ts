@@ -4,6 +4,7 @@ import { Item } from "../data/item.model";
 import { Category } from "../data/category.model";
 import { DataService } from "../data/data";
 import { Router } from '@angular/router';
+import { SelectedIndexChangedEventData } from 'nativescript-drop-down';
 
 @Component({
     selector: "Home",
@@ -21,12 +22,19 @@ export class HomeComponent implements OnInit {
     items: Array<Item>;
     categories: Array<Category>;
     totalCartedItem;
+    dropDownitems: Array<string>;
 
     constructor(private routerExtensions: RouterExtensions, private dataService: DataService, private router: Router) {
         //Set up to get data from shared service to help moving from mocking data to real API calls in the future
         this.items = this.dataService.getItems();
         this.categories = this.dataService.getCategories();
         this.findTotalCartedItem();
+
+        this.dropDownitems = [];
+        for (var i = 0; i < 1; i++) {
+            this.dropDownitems.push("Logout");
+        }
+
     }
 
     ngOnInit(): void {

@@ -2,6 +2,7 @@ E:\angular-native\NSPlayground\platforms\android\app\src\main\assets\app\app-rou
 E:\angular-native\NSPlayground\platforms\android\app\src\main\assets\app\app.component.js
 E:\angular-native\NSPlayground\platforms\android\app\src\main\assets\app\app.module.js
 E:\angular-native\NSPlayground\platforms\android\app\src\main\assets\app\cart\cart.component.js
+E:\angular-native\NSPlayground\platforms\android\app\src\main\assets\app\cart - Copy\cart.component.js
 E:\angular-native\NSPlayground\platforms\android\app\src\main\assets\app\data\category.model.js
 E:\angular-native\NSPlayground\platforms\android\app\src\main\assets\app\data\data.js
 E:\angular-native\NSPlayground\platforms\android\app\src\main\assets\app\data\item.model.js
@@ -98,6 +99,9 @@ E:\angular-native\NSPlayground\platforms\android\app\src\main\assets\app\tns_mod
 E:\angular-native\NSPlayground\platforms\android\app\src\main\assets\app\tns_modules\nativescript-background-http\typings\java!uploadservice-3.4.2.js
 E:\angular-native\NSPlayground\platforms\android\app\src\main\assets\app\tns_modules\nativescript-camera\camera.common.js
 E:\angular-native\NSPlayground\platforms\android\app\src\main\assets\app\tns_modules\nativescript-camera\camera.js
+E:\angular-native\NSPlayground\platforms\android\app\src\main\assets\app\tns_modules\nativescript-drop-down\angular\index.js
+E:\angular-native\NSPlayground\platforms\android\app\src\main\assets\app\tns_modules\nativescript-drop-down\drop-down-common.js
+E:\angular-native\NSPlayground\platforms\android\app\src\main\assets\app\tns_modules\nativescript-drop-down\drop-down.js
 E:\angular-native\NSPlayground\platforms\android\app\src\main\assets\app\tns_modules\nativescript-effects\effects.common.js
 E:\angular-native\NSPlayground\platforms\android\app\src\main\assets\app\tns_modules\nativescript-effects\effects.js
 E:\angular-native\NSPlayground\platforms\android\app\src\main\assets\app\tns_modules\nativescript-fresco\nativescript-fresco-common.js

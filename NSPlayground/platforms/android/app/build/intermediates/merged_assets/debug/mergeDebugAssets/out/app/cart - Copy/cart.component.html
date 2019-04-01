@@ -1,0 +1,32 @@
+<ActionBar class="action-bar">
+    <GridLayout rows="auto" columns="*,*" backgroundColor="">
+            <Label row="0" coloumn="0" class="fa" style="font-size: 20em;" text="&#xf07a;" verticalAlignment="middle" horizontalAlignment="left"></Label>
+            <Label coloumn="1" class="action-bar-title" text="Your Order" horizontalAlignment="center" ></Label>
+    </GridLayout>
+</ActionBar>
+
+<GridLayout rows="*,45">
+
+        <ScrollView row="0" class="items" >
+        <ListView [items]="items" class="list-group" height="500">
+                <ng-template let-item="item">
+                        <GridLayout class="page-item" columns="50, 50, 50, *, 100" rows="auto, auto, auto, auto">
+                                <Label row="0" col="0" colSpan="5" rowSpan="2" [text]="item.name" textWrap="true" class="food-name" marginTop="10" marginLeft="10" [nsRouterLink]="['/detail/'+item.id]"></Label>
+                                <Label row="2" col="0" colSpan="2" [text]="item.toppingMsg" class="topping" marginLeft="10"></Label>
+                                <Button row="3" col="0" class="btn btn-primary btn-active" class="btn-plus" text="+" marginLeft="10" (tap)="addAmount(item.id)"></Button>
+                                <Label text="Label 2" row="3" col="1" [text]="item.amount" textAlignment="center" verticalAlignment="middle" class="item-number"></Label>
+                                <Button row="3" col="2" class="btn btn-primary btn-active" class="btn-minus" text="-" marginLeft="10" (tap)="removeAmount(item.id)"></Button>
+                                <Label row="3" col="4" [text]=" item.price * item.amount " textAlignment="right" verticalAlignment="middle" marginRight="10"></Label>
+                        </GridLayout>
+                </ng-template>
+            </ListView>
+        </ScrollView>
+
+        <StackLayout row="1" orientation="horizontal" class="footer">
+                <GridLayout rows="*" columns="*">
+                        <Label style="font-size: 20em;" text="Total" textAlignment="left" verticalAlignment="middle"></Label>
+                        <Label coloumn="0" [text]=" this.totalPrice +' TK'" verticalAlignment="middle" horizontalAlignment="right" ></Label>
+                </GridLayout>
+        </StackLayout>
+
+</GridLayout>

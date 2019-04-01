@@ -1,3 +1,4 @@
+
 <GridLayout rows="auto,auto,*,auto" columns="auto">
 
     <GridLayout row="0" #navStatusBar class="navStatusBar" backgroundColor="#bd2122"
@@ -8,7 +9,12 @@
         <Image col="2" row="0" (tap)="onBellTap()" horizontalAlignment="right"
             class="status-img" src="~/assets/images/bell.png"></Image>
         <Image horizontalAlignment="right" stretch="aspectFill" col="3" row="0"
-            class="status-profile" src="~/assets/images/me.jpg"></Image>
+            class="status-profile" src="~/assets/images/me.jpg">
+        <GridLayout rows="auto, auto, *" columns="*, *">
+        <DropDown #dd backroundColor="red" [items]="dropDownitems" row="0" col="1">
+        </DropDown>
+        </GridLayout>
+        </Image>
     </GridLayout>
 
     <GridLayout row="1" #navTab class="navTab" verticalAlignment="top" height="50"

@@ -9,7 +9,7 @@ import { DetailComponent } from "./detail/detail.component";
 import { CartComponent } from "./cart/cart.component";
 
 import { DataService } from "./data/data";
-
+import { DropDownModule } from "nativescript-drop-down/angular";
 
 @NgModule({
     bootstrap: [
@@ -17,7 +17,8 @@ import { DataService } from "./data/data";
     ],
     imports: [
         NativeScriptModule,
-        AppRoutingModule
+        AppRoutingModule,
+        DropDownModule
     ],
     declarations: [
         AppComponent,
