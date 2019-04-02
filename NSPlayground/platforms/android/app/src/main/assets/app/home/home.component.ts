@@ -1,11 +1,14 @@
-import { Component, OnInit } from "@angular/core";
+import { Component, OnInit, ChangeDetectorRef, AfterViewInit, ViewChild } from "@angular/core";
 import { RouterExtensions } from "nativescript-angular/router";
 import { Item } from "../data/item.model";
 import { Category } from "../data/category.model";
 import { DataService } from "../data/data";
 import { Router } from '@angular/router';
-import { SelectedIndexChangedEventData } from 'nativescript-drop-down';
-
+import { Kinvey } from "kinvey-nativescript-sdk";
+import { BackendService } from "../shared/backend.service";
+import { RadSideDrawerComponent } from "nativescript-ui-sidedrawer/angular";
+import { RadSideDrawer } from 'nativescript-ui-sidedrawer';
+import * as app from "tns-core-modules/application";
 @Component({
     selector: "Home",
     moduleId: module.id,
@@ -23,8 +26,11 @@ export class HomeComponent implements OnInit {
     categories: Array<Category>;
     totalCartedItem;
     dropDownitems: Array<string>;
+    
+    public drawerComponent: RadSideDrawerComponent;
+    private drawer: RadSideDrawer;
 
-    constructor(private routerExtensions: RouterExtensions, private dataService: DataService, private router: Router) {
+    constructor(private routerExtensions: RouterExtensions, private dataService: DataService, private router: Router, private _changeDetectionRef: ChangeDetectorRef) {
         //Set up to get data from shared service to help moving from mocking data to real API calls in the future
         this.items = this.dataService.getItems();
         this.categories = this.dataService.getCategories();
@@ -35,9 +41,27 @@ export class HomeComponent implements OnInit {
             this.dropDownitems.push("Logout");
         }
 
+       console.log(Kinvey.User.getActiveUser());
+
     }
 
     ngOnInit(): void {
+    }
+
+     ngAfterViewInit() {
+          this.drawer = this.drawerComponent.sideDrawer;
+          this._changeDetectionRef.detectChanges();
+     }
+
+    public openDrawer() {
+        console.log("drawer open...");
+        const sideDrawer = <RadSideDrawer>app.getRootView();
+        sideDrawer.showDrawer();
+       // this.drawer.showDrawer();
+    }
+
+    public onCloseDrawerTap() {
+        this.drawer.closeDrawer();
     }
 
     showItem(itemId) {

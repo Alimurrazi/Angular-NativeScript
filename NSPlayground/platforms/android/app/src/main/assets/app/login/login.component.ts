@@ -131,4 +131,10 @@ export class LoginComponent implements OnInit {
       message: message
     });
   }
+
+  logout() {
+    this.userService.logout();
+    this.routerExtensions.navigate(["/home"], { clearHistory: true });
+}
+
 }

@@ -13,6 +13,7 @@ import { DataService } from "./data/data";
 import { DropDownModule } from "nativescript-drop-down/angular";
 import { UserService } from "./shared/user.service";
 import { NativeScriptFormsModule } from "nativescript-angular/forms";
+import { NativeScriptUISideDrawerModule } from "nativescript-ui-sidedrawer/angular";
 @NgModule({
     bootstrap: [
         AppComponent
@@ -21,7 +22,8 @@ import { NativeScriptFormsModule } from "nativescript-angular/forms";
         NativeScriptFormsModule,
         NativeScriptModule,
         AppRoutingModule,
-        DropDownModule
+        DropDownModule,
+        NativeScriptUISideDrawerModule
     ],
     declarations: [
         AppComponent,

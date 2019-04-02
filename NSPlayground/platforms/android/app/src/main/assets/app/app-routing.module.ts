@@ -10,7 +10,7 @@ import { BackendService } from "./shared/backend.service";
 
 const routes: Routes = [
  //   { path: "", redirectTo: "/home", pathMatch: "full" },
-    { path: "", redirectTo: BackendService.isUserLoggedIn() ? "/login" : "/login", pathMatch: "full" },
+    { path: "", redirectTo: BackendService.isUserLoggedIn() ? "/home" : "/login", pathMatch: "full" },
     { path: "home", component: HomeComponent },
     { path: "detail/:id", component: DetailComponent },
     { path: "cart", component: CartComponent },

@@ -8,6 +8,7 @@ Kinvey.init({
 
 export class BackendService {
     static isUserLoggedIn() {
+        console.log("who is in..."+!!Kinvey.User.getActiveUser());
         return !!Kinvey.User.getActiveUser();
     }
 }
